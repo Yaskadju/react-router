@@ -5,6 +5,7 @@ import Home from './components/Home'
 import { render } from 'react-dom';
 import About from './components/About'
 import Contact from './components/Contact'
+import './style.css'
 
 class App extends Component {
   constructor(props) {

@@ -26,7 +26,7 @@ class Home extends Component {
             posts.map(post => {
                 return (
                     <div className="post card" key={post.id}>
-                        <img src={Pokeball} alt="a pokeball"/>
+                        <img src='https://github.com/iamshaunjp/react-redux-complete-playlist/blob/lesson-33/poketimes/src/pokeball.png?raw=true' alt="a pokeball"/>
                         <div className="card-content">
                             <Link to={'/' + post.id}>
                                 <span className="card-title red-text"> {post.title} </span>
